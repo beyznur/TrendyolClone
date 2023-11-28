@@ -1,0 +1,31 @@
+.products {
+  display: flex;
+  min-width: 1200px;
+
+  .left {
+    overflow-y: scroll;
+    height: 100%;
+    flex: 1.2;
+    position: sticky;
+    top: 5px;
+    margin: 0 0 15px 10px;
+    padding: 0 15px 25px 0;
+
+    label {
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    input {
+      margin: 5px;
+      cursor: pointer;
+    }
+  }
+  .right {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 30px;
+  }
+}

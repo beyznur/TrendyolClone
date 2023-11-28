@@ -1,0 +1,38 @@
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-width: 1170px;
+
+  .imageContainer {
+    width: 98%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: gray;
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+      border-radius: 100%;
+      border: 2px solid rgba(41, 38, 32, 0.055);
+    }
+
+    .caption {
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+    }
+  }
+}

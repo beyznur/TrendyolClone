@@ -1,0 +1,59 @@
+.card {
+  width: 200px;
+  height: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+
+  .cardItem {
+    background-color: white;
+  }
+
+  .imageItem {
+    border: 1px solid #99999949;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+    position: relative;
+
+    .productImage {
+      width: 130px;
+      height: 300px;
+      object-fit: cover;
+      margin-top: 10px;
+      transition: transform 0.8s ease;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
+
+    .bestSeller {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      top: 10px;
+      left: 10px;
+    }
+
+    p {
+      font-size: 12px;
+      margin-left: 10px;
+      margin-bottom: 90px;
+      color: black;
+    }
+
+    span {
+      font-size: 15px;
+      font-weight: bold;
+      position: absolute;
+      bottom: 35px;
+      color: #f7980b;
+      left: 10px;
+    }
+  }
+}

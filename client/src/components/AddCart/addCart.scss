@@ -1,0 +1,164 @@
+.addCart {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  z-index: 999;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+  border-radius: 5px;
+  width: 290px;
+
+  h5 {
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .item {
+    display: flex;
+    margin-left: 15px;
+
+    img {
+      width: 80px;
+      height: 93px;
+      object-fit: cover;
+      margin-bottom: 8px;
+    }
+
+    .details {
+      display: flex;
+      flex-direction: column;
+      margin: 0 10px 0 15px;
+
+      span {
+        font-size: 12px;
+      }
+
+      .title {
+        margin: 5px 20px;
+      }
+
+      .piece {
+        font-size: 11px;
+        color: rgba(70, 77, 77, 0.815);
+        position: relative;
+      }
+
+      .price {
+        color: rgb(255, 115, 0);
+        font-weight: 500;
+      }
+    }
+  }
+
+  button {
+    width: 125px;
+    height: 40px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgb(255, 115, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #reset {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #99999949;
+  }
+
+  .icon {
+    position: absolute;
+    padding: 5px;
+    right: 0;
+    margin: auto;
+    color: rgba(255, 115, 0, 0.664);
+  }
+}
+.addCart {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  z-index: 999;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+  border-radius: 5px;
+  width: 290px;
+
+  h5 {
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .item {
+    display: flex;
+    margin-left: 15px;
+
+    img {
+      width: 80px;
+      height: 93px;
+      object-fit: cover;
+      margin-bottom: 8px;
+    }
+
+    .details {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+      margin-right: 10px;
+
+      span {
+        font-size: 12px;
+      }
+
+      .title {
+        margin-bottom: 5px;
+        margin-right: 20px;
+      }
+
+      .piece {
+        font-size: 11px;
+        color: rgba(70, 77, 77, 0.815);
+        position: relative;
+      }
+
+      .price {
+        color: rgb(255, 115, 0);
+        font-weight: 500;
+      }
+    }
+  }
+
+  button {
+    width: 125px;
+    height: 40px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgb(255, 115, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #reset {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #99999949;
+  }
+
+  .icon {
+    position: absolute;
+    padding: 5px;
+    right: 0;
+    margin: auto;
+    color: rgba(255, 115, 0, 0.664);
+  }
+}

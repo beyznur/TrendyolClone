@@ -1,0 +1,155 @@
+.navbar {
+  position: relative;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  min-width: 1200px;
+
+  .centerNavbar {
+    display: flex;
+    align-items: center;
+
+    .left {
+      flex: 0.5;
+      .topImg {
+        margin-top: 10px;
+        width: 130px;
+        height: 100%;
+      }
+    }
+
+    .center {
+      flex: 1.6;
+      margin-left: 30px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .topItem {
+        position: relative;
+        margin-right: 30px;
+
+        input {
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          font-size: 12px;
+
+          background-color: #f0f0f0;
+          box-sizing: border-box;
+          width: 100%;
+        }
+
+        .searchIcon {
+          position: absolute;
+          top: 0px;
+          bottom: 0px;
+          margin: auto;
+          right: 8px;
+          color: orange;
+        }
+      }
+    }
+
+    .right {
+      flex: 1;
+
+      .icons {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        border: 25px;
+        cursor: pointer;
+
+        .storeIcon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+
+          .count {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            position: absolute;
+            right: 10px;
+            font-size: 11px;
+            color: white;
+            background-color: #ff6600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+
+        .myicon {
+          stroke-width: 10px;
+          color: action;
+          font-weight: 500;
+
+        }
+
+        span {
+          font-weight: 500;
+          margin-right: 30px;
+          margin-left: 3px;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+
+  .bottomNavbar {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+      margin-left: 10px;
+      margin-right: 10px;
+
+      li {
+        position: relative;
+        font-size: 12px;
+        font-weight: 500;
+        color: #0f0e0ce8;
+
+        span {
+          margin-left: 5px;
+          border: none;
+          border-radius: 20px;
+          background-color: rgb(214, 34, 34);
+          font-size: 11px;
+          padding-right: 4px;
+          padding-left: 4px;
+          color: white;
+        }
+
+        &:hover {
+          cursor: pointer;
+          color: #ff6600;
+
+          &:after {
+            content: "";
+            position: absolute;
+            background-color: #ff6600;
+            height: 2px;
+            left: 0px;
+            bottom: -10px;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    hr {
+      border: 1px solid #110f0f15;
+      margin-right: 5px;
+    }
+  }
+}
